@@ -37,3 +37,55 @@ img{
     vertical-align: middle;
 }
 
+/* site body+containers*/
+
+#site_main::before{
+    content: none;
+    background-color:var(--color-lightgrey);
+    display: block;
+    height: 3rem;
+}
+
+#site_main{
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.list_container{
+    background-color: var(--color-blue);
+}
+
+.list_container:first-child{
+    margin-top: 3rem ;
+    border-radius: 2%;
+}
+
+/* buttons*/
+
+.blue_button{
+    border: none;
+    border-radius: 3px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width:70px ;
+    height:20px ;
+}
+.white_button{
+    border-color: grey;
+    border-radius: 3px;
+    background-color: var(--color-lightgrey);
+    color: rgb(rgb(172, 168, 168));
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width:70px ;
+    height:20px ;
+}
+

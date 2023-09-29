@@ -47,18 +47,20 @@ img{
 }
 
 #site_main{
-    margin-left: 170px;
-    margin-right: 170px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 .list_container{
     background-color: var(--color-blue);
 }
 
-.list_container:first-child{
-    margin-top: 3rem ;
-    border-radius: 2%;
+.list_container:nth-child(2){
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
 }
+
 
 /* buttons*/
 .buttons{

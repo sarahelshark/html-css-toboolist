@@ -61,6 +61,9 @@ img{
 }
 
 /* buttons*/
+.buttons{
+    padding: 0.5rem;
+}
 
 .blue_button{
     border: none;
@@ -75,11 +78,12 @@ img{
     width:70px ;
     height:20px ;
 }
+
 .white_button{
-    border-color: grey;
+    border-color: rgba(208, 208, 210, 0.848);
+    color:rgba(208, 208, 210, 0.848);
     border-radius: 3px;
-    background-color: var(--color-lightgrey);
-    color: rgb(rgb(172, 168, 168));
+    background-color:var(--color-white)
     display: inline-block;
     font-size: 12px;
     margin-top: 5px;
